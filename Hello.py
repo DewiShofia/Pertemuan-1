@@ -18,7 +18,3 @@
 # print (tinggi)
 # print (f'status: {statusmenikahString}')
 # print (c)
-nama = input ("Nama: ")
-umur = int
-
-
