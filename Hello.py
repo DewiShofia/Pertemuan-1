@@ -8,7 +8,7 @@ tinggi = 155.2
 statusmenikah = False
 # Aritmatika
 a = 1
-b = 2.5
+b = 2.3
 c = a + b
 statusmenikahString = 'Sudah Kawin' if statusmenikah else 'Belum Kawin'
 
