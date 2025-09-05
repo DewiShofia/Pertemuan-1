@@ -1,20 +1,23 @@
 # String
-nama = 'Iqbal'
+nama = 'Dewi'
 # Int
-umur = 20
+umur = 25
 # Float
-tinggi = 168.7
-# Boolean
-statusMenikah = False
+tinggi = 155.2
+# Bolean 
+statusmenikah = False
 # Aritmatika
 a = 1
 b = 2.5
 c = a + b
-statusMenikahString = 'Sudah Kawin' if statusMenikah else 'Belum Kawin'
-print(f"Nama: {nama}")
-print(umur)
-print(tinggi)
-print(f"Status: {statusMenikahString}")
-# print(f"Status: {'Sudah Kawin' if statusMenikah else 'Belum Kawin'}")
-print(c)
-print("Halo, saya sedang belajar Python!")
+statusmenikahString = 'Sudah Kawin' if statusmenikah else 'Belum Kawin'
+
+print('Hello World')
+print (f'nama: {nama}')
+print (umur)
+print (tinggi)
+print (f'status: {statusmenikahString}')
+print (c)
+
+
+
