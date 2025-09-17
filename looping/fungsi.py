@@ -4,11 +4,11 @@ def sapa():
 sapa()  # memanggil fungsi
 sapa()
 # parameter(nilai yang dikirimkan ke fungsi) dan return(mengembalikan hasil fungsi/nilai dari hasil logic yang ditulis)
-def tambah(a,b):
+def penjumlahan(a,b):
     return a + b
 
-# function(return) itu hasil dan parameter itu (2,5)
-hasil = tambah(2, 5)
+# function(return) itu hasil dari pengembalian nilai dari parameter itu (2,5)
+hasil = penjumlahan(2, 5)
 print(hasil)
 
 # variabel
@@ -29,7 +29,7 @@ print(hasildesimalpenjumlahan)
 def stringWithParam(f):
     return(f)
 
-hasilstring = stringWithParam("Halo, selamat pagi")
+hasilstring = stringWithParam("Halo, selamat siang")
 print(hasilstring)
 
 # default parameter
@@ -43,8 +43,9 @@ print(hasildesimalpenjumlahan)
 # default string
 def  stringWithParam(h="Selamat Pagi dari default"):
     return h
-hasilstring = stringWithParam()
-print(hasilstring)
+hasilstring = stringWithParam()  # ini contoh parameter yang kosong
+print(hasilstring) # maka hasilnya sesuai default
+
 
 
 
